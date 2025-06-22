@@ -1,4 +1,4 @@
-const Product = require('./../models/productModel');
+const Product = require("./../models/productModel");
 
 async function getAllProducts(req, res) {
     const products = await Product.find();
@@ -58,5 +58,5 @@ module.exports = {
     createProduct: createProduct,
     getProduct: getProduct,
     updateProduct: updateProduct,
-    deleteProduct: deleteProduct
-}
+    deleteProduct: deleteProduct,
+};
